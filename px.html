@@ -1,0 +1,149 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="px.css">
+		<script>	 
+			function getElementsByClassName(searchClass)
+				{
+ 					var classElements = new Array();
+ 					var all = document.getElementsByTagName('*');
+ 					var pattern = new RegExp('(^|\\\\s)'+searchClass+'(\\\\s|$)');
+ 					for ( i = 0, j = 0; i < all.length; i++ )
+						{
+							if ( pattern.test(all[i].className) )
+							{
+							classElements[j] = all[i];
+							j++;
+							}
+						}
+
+					return classElements;
+
+				}
+		</script>
+	</head>
+	<body>
+		<div id="text">
+			<div id="navi">
+			<ul>
+				<li class="navi1"><a href="#">Home</a>
+					<ul>
+						<li class="navi2"><a href="#">Home</a>
+						<ul>
+							<li class="navi3"><a href="#">Home</a></li>
+							<li class="navi3"><a href="#">Home</a></li>
+							<li class="navi3"><a href="#">Home</a></li></ul></li>
+						<li class="navi2"><a href="#">Home</a>
+						<ul>
+							<li class="navi3"><a href="#">Home</a></li>
+							<li class="navi3"><a href="#">Home</a></li>
+							<li class="navi3"><a href="#">Home</a></li></ul></li>
+						<li class="navi2"><a href="#">Home</a>
+						<ul>
+							<li class="navi3"><a href="#">Home</a></li>
+							<li class="navi3"><a href="#">Home</a></li>
+							<li class="navi3"><a href="#">Home</a></li></ul></li>
+						<li class="navi2"><a href="#">Home</a>
+						<ul>
+							<li class="navi3"><a href="#">Home</a></li>
+							<li class="navi3"><a href="#">Home</a></li>
+							<li class="navi3"><a href="#">Home</a></li></ul></li>
+					</ul></li>
+				<li class="navi1"><a href="#">Client</a>
+					<ul>
+						<li class="navi2"><a href="#">Client</a>
+							<ul>
+							<li class="navi3"><a href="#">Client</a></li>
+							<li class="navi3"><a href="#">Client</a></li>
+							<li class="navi3"><a href="#">Client</a></li></ul></li>
+						<li class="navi2"><a href="#">Client</a>
+							<ul>
+							<li class="navi3"><a href="#">Client</a></li>
+							<li class="navi3"><a href="#">Client</a></li>
+							<li class="navi3"><a href="#">Client</a></li></ul></li>
+						<li class="navi2"><a href="#">Client</a>
+							<ul>
+							<li class="navi3"><a href="#">Client</a></li>
+							<li class="navi3"><a href="#">Client</a></li>
+							<li class="navi3"><a href="#">Client</a></li></ul></li>
+						<li class="navi2"><a href="#">Client</a>
+							<ul>
+							<li class="navi3"><a href="#">Client</a></li>
+							<li class="navi3"><a href="#">Client</a></li>
+							<li class="navi3"><a href="#">Client</a></li></ul></li>
+					</ul></li>
+				<li class="navi1"><a href="#">Work</a>
+					<ul>
+						<li class="navi2"><a href="#">Work</a>
+							<ul>
+							<li class="navi3"><a href="#">Work</a></li>
+							<li class="navi3"><a href="#">Work</a></li>
+							<li class="navi3"><a href="#">Work</a></li></ul></li>
+						<li class="navi2"><a href="#">Work</a>
+							<ul>
+							<li class="navi3"><a href="#">Work</a></li>
+							<li class="navi3"><a href="#">Work</a></li>
+							<li class="navi3"><a href="#">Work</a></li></ul></li>
+						<li class="navi2"><a href="#">Work</a>
+							<ul>
+							<li class="navi3"><a href="#">Work</a></li>
+							<li class="navi3"><a href="#">Work</a></li>
+							<li class="navi3"><a href="#">Work</a></li></ul></li>
+						<li class="navi2"><a href="#">Work</a>
+							<ul>
+							<li class="navi3"><a href="#">Work</a></li>
+							<li class="navi3"><a href="#">Work</a></li>
+							<li class="navi3"><a href="#">Work</a></li></ul></li>
+					</ul></li>
+				<li class="navi1"><a href="#">Contact</a>
+					<ul>
+						<li class="navi2"><a href="#">Contact</a>
+							<ul>
+							<li class="navi3"><a href="#">Contact</a></li>
+							<li class="navi3"><a href="#">Contact</a></li>
+							<li class="navi3"><a href="#">Contact</a></li></ul></li>
+						<li class="navi2"><a href="#">Contact</a>
+							<ul>
+							<li class="navi3"><a href="#">Contact</a></li>
+							<li class="navi3"><a href="#">Contact</a></li>
+							<li class="navi3"><a href="#">Contact</a></li></ul></li>
+						<li class="navi2"><a href="#">Contact</a>
+							<ul>
+							<li class="navi3"><a href="#">Contact</a></li>
+							<li class="navi3"><a href="#">Contact</a></li>
+							<li class="navi3"><a href="#">Contact</a></li></ul></li>
+						<li class="navi2"><a href="#">Contact</a>
+							<ul>
+							<li class="navi3"><a href="#">Contact</a></li>
+							<li class="navi3"><a href="#">Contact</a></li>
+							<li class="navi3"><a href="#">Contact</a></li></ul></li>
+					</ul></li>
+				<li class="navi1"><a href="#">About</a>
+					<ul>
+						<li class="navi2"><a href="#">About</a>
+							<ul>
+							<li class="navi3"><a href="#">About</a></li>
+							<li class="navi3"><a href="#">About</a></li>
+							<li class="navi3"><a href="#">About</a></li></ul></li>
+						<li class="navi2"><a href="#">About</a>
+							<ul>
+							<li class="navi3"><a href="#">About</a></li>
+							<li class="navi3"><a href="#">About</a></li>
+							<li class="navi3"><a href="#">About</a></li></ul></li>
+						<li class="navi2"><a href="#">About</a>
+							<ul>
+							<li class="navi3"><a href="#">About</a></li>
+							<li class="navi3"><a href="#">About</a></li>
+							<li class="navi3"><a href="#">About</a></li></ul></li>
+						<li class="navi2"><a href="#">About</a>
+							<ul>
+							<li class="navi3"><a href="#">About</a></li>
+							<li class="navi3"><a href="#">About</a></li>
+							<li class="navi3"><a href="#">About</a></li></ul></li>
+					</ul></li>
+			</ul>
+			<div id="transbox"><input type="text">
+			<button type="button">ËÑË÷<button></div>
+			</div>
+		</div>
+	</body>
+</html>

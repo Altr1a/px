@@ -1,0 +1,58 @@
+li {list-style-type: none;
+	border:1px solid #474747;}
+a {text-decoration:none;
+	color: #999999;}
+a:hover {background-color: #474747;}
+body {background-image: url(../image/mac.jpg);
+	background-repeat: no-repeat;
+	background-position: center;}
+#text {width:100%;
+	height:100%;}
+#navi {width:100%;
+	height:30px;
+	background-color: #147561;
+	border:#00f solid 1px;
+	text-align:center;}
+.navi1 {width:120px;
+	height:30px;
+	margin:0px;
+	background-color: #707070;
+	}
+.navi2 {width:120px;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	bottom:-12px;
+	left:-101px;
+	background-color:#147561;
+	border:#00f dashed 1px}
+.navi3 {width:120px;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	background-color:#707070;
+	border:#474747 dashed 1px;
+	position:relative;
+	bottom:20px;
+	left:20px;}
+#navi ul li {display:inline;
+		float:left;
+		text-align:center;
+		margin-left:100px;}
+#navi ul {width:100%;
+	hight:30px;
+	margin:0px;
+	padding:0px;
+	margin:0 auto;
+	text-align:center;}
+#navi ul li ul {display:none;
+		text-align:center;
+		text-decoration:none;}
+#navi ul li:hover ul {display:block;}
+#navi ul li ul li ul li {display:none;
+			text-align:center;
+			text-decoration:none;}
+#navi ul li:hover ul li:hover ul li{display:block;}
+#transbox {opacity:0.6;
+		float:right;}
